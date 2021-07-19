@@ -2,54 +2,79 @@
 <html lang="en">
 <head>
     <title>Contingency Studios</title>
-    <link rel="icon" href="brickblaster.png" type="image/png">
+    <link rel="icon" href="assets/brickblaster.png" type="image/png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&family=Tourney:wght@400;900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-default" role="navigation" style="background-color: deepskyblue; border-color: black;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="background-color: #000000;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" ></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand " href="#" style="font-family: 'Teko', cursive; color: #000000; font-size: 25px; ">Contingency Studios</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ><a href="#" style="font-family: 'Teko', cursive; color: #000000; font-size: 22px;">About</a></li>
+                    <li><a href="#" style="font-family: 'Teko', cursive; color: #000000; font-size: 22px;">Games</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 </head>
 <body style="background-color: black;">
     <div class="text-center">
-        <h1 style="font-family: 'Tourney', cursive; color: white">Contingency Studios</h1>
-        <h4 style="font-family: 'Tourney', cursive; color: white">Indie Games</h4>
+        <h1>Contingency Studios</h1>
+        <h4>Indie Games</h4>
     </div>
-    <hr style="border: 2px solid white; border-radius: 1px;" />
     <div class="container">
         <div class="row">
             <div class="col-sm-4 text-center">
-                <a href="http://contingencystudios.co.za/brickblaster">
-                    <h3 style="font-family: 'Teko', sans-serif; color: deepskyblue">Brick Breaker</h3>
-                    <img src="brickblaster.png" class="img-thumbnail" alt="" width="200" height="200">
+                <a href="/brickblaster">
+                    <h3 >Brick Breaker</h3>
+                    <img src="assets/brickblaster.png" class="img-thumbnail" alt="" width="200" height="200">
                 </a>
             </div>
             <div class="col-sm-4 text-center">
-                <a href="http://contingencystudios.co.za/shipwreck">
-                    <h3 style="font-family: 'Teko', sans-serif; color: deepskyblue ">ShipWreck</h3>
-                    <img src="shipwreck.png" class="img-thumbnail" alt="" width="200" height="200">
+                <a href="/shipwreck">
+                    <h3 >ShipWreck</h3>
+                    <img src="assets/shipwreck.png" class="img-thumbnail" alt="" width="200" height="200">
                 </a>
             </div>
             <div class="col-sm-4 text-center">
-                <a href="http://contingencystudios.co.za/snake">
-                    <h3 style="font-family: 'Teko', sans-serif; color: deepskyblue ">Snake</h3>
-                    <img src="snake.png" class="img-thumbnail" alt="" width="200" height="200">
+                <a href="/snake">
+                    <h3 >Snake</h3>
+                    <img src="assets/snake.png" class="img-thumbnail" alt="" width="200" height="200">
                 </a>
             </div>
         </div>
         <br />
         <div class="row">
             <div class="col-sm-4 text-center">
-                <h3 style="font-family: 'Teko', sans-serif; color: deepskyblue ">Tic Tac Toe Download</h3>
                 <a href="bin/TicTacToe.exe" download>
-                    <img src="tictactoe.png" class="img-thumbnail" alt="" width="200" height="200">
+                    <h3>Tic Tac Toe Download (.exe)</h3>
+                    <img src="assets/tictactoe.png" class="img-thumbnail" alt="" width="200" height="200">
                 </a>
             </div>
         </div>
     </div>
-
 </body>
+<footer>
+    <hr />
+    <h4 class="text-center footer-text"> 
+        Website Created By Lee Samuel Using Bootstrap 
+    </h4>
+</footer>
 </html>
