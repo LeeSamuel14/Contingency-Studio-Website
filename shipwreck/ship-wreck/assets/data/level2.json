@@ -1,0 +1,173 @@
+{
+    "levelTime" : 20,
+    "levelText": "LEVEL 2",
+    "playerShip": {
+        "key": "ship2Animation",
+        "health": 100,
+        "speed": 300,
+        "playerDamageToEnemyShip":10
+    },
+    "enemyShipSpawnTime":15,
+    "enemyShipCount": 5,
+    "enemyShips": [
+        {  
+            "x": 650,
+            "y": 250,
+            "key":  "walrus",
+            "frame": 0,
+            "enemyHealth": 150,
+            "enemyHealthDamage":20,
+            "enemyDamageToPlayerShip": 10,
+            "speed": 50,
+            "firingTime": 15,
+            "type": "medium"
+        },
+        {  
+            "x": 900,
+            "y": 400,
+            "key":  "octupus",
+            "frame": 0,
+            "enemyHealth": 150,
+            "enemyHealthDamage":20,
+            "enemyDamageToPlayerShip": 7.5,
+            "speed": 150,
+            "firingTime": 8,
+            "type": "medium"
+        },
+        {  
+            "x": 700,
+            "y": 350,
+            "key":  "squid",
+            "frame": 0,
+            "enemyHealth": 150,
+            "enemyHealthDamage":20,
+            "enemyDamageToPlayerShip": 10,
+            "speed": 120,
+            "firingTime": 8,
+            "type": "medium"
+        },
+        {  
+            "x": 0,
+            "y": 0,
+            "key":  "turtle",
+            "frame": 0,
+            "enemyHealth": 100,
+            "enemyHealthDamage":50,
+            "enemyDamageToPlayerShip": 5,
+            "speed": 40,
+            "firingTime": 5,
+            "type": "easy"
+        },
+        {  
+            "x": 30,
+            "y": 40,
+            "key":  "dolphin",
+            "frame": 0,
+            "enemyHealth": 80,
+            "enemyHealthDamage": 10,
+            "enemyDamageToPlayerShip": 5,
+            "speed": 170,
+            "firingTime": 2,
+            "type": "medium"
+        }
+
+    ],
+    "islands":[
+        {
+            "x": 600,
+            "y": 300,
+            "key":  "island13",
+            "frame": 0
+        },
+        {
+            "x": 450,
+            "y": 380,
+            "key":  "island13",
+            "frame": 0
+        },
+        {
+            "x": 300,
+            "y": 450,
+            "key":  "island13",
+            "frame": 0
+        },
+        {
+            "x": 750,
+            "y": 220,
+            "key":  "island13",
+            "frame": 0
+        },
+        {
+            "x": 900,
+            "y": 160,
+            "key":  "island13",
+            "frame": 0
+        },
+        {
+            "x": 220,
+            "y": 120,
+            "key":  "island4",
+            "frame": 0
+        },
+        {
+            "x": 1000,
+            "y": 400,
+            "key":  "island4",
+            "frame": 0
+        }
+
+    ],
+    "powerUpSpawnTime": 50,
+    "powerUps":[
+        {
+            "label": "PlayerLife",
+            "sprite": "heart",
+            "value": 10,
+            "time": "0"
+        },
+        {   
+            "label": "Invisible",
+            "sprite": "invisible",
+            "value": 0.3,
+            "time": "10"
+        },
+        {   
+            "label": "Mine",
+            "sprite": "mine",
+            "value": 70,
+            "time": "0"
+        },
+        {   
+            "label": "PlayerFast",
+            "sprite": "speedFastPlayer",
+            "value": 1200,
+            "time": "10"
+        },
+        {   
+            "label": "PlayerSlow",
+            "sprite": "speedSlowPlayer",
+            "value": 100,
+            "time": "10"
+        },
+        {   
+            "label": "EnemySlow",
+            "sprite": "speedSlowEnemy",
+            "value": 10,
+            "time": "10"
+        },
+        {   
+            "label": "EnemyFast",
+            "sprite": "speedFastEnemy",
+            "value": 200,
+            "time": "10"
+        },
+        {   
+            "label": "PlayerGrow",
+            "sprite": "growPlayer",
+            "value": 0.5,
+            "time": "10"
+        }
+
+        
+    ]
+}

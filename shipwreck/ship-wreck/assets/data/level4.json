@@ -1,0 +1,151 @@
+{
+    "levelTime" : 20,
+    "levelText": "BOSS LEVEL",
+    "playerShip": {
+        "key": "ship4Animation",
+        "health": 100,
+        "speed": 500,
+        "playerDamageToEnemyShip":10
+    },
+    "enemyShipSpawnTime":15,
+    "enemyShipCount": 1,
+    "enemyShips": [
+        {  
+            "x": 650,
+            "y": 250,
+            "key":  "shark",
+            "frame": 0,
+            "enemyHealth": 200,
+            "enemyHealthDamage":10,
+            "enemyDamageToPlayerShip": 10,
+            "speed": 250,
+            "firingTime": 1,
+            "type": "super hard"
+        }
+
+    ],
+    "islands":[
+        {
+            "x": 600,
+            "y": 100,
+            "key":  "island5",
+            "frame": 0
+        },
+        {
+            "x": 500,
+            "y": 120,
+            "key":  "island12",
+            "frame": 0
+        },
+        {
+            "x": 400,
+            "y": 180,
+            "key":  "island5",
+            "frame": 0
+        },
+        {
+            "x": 320,
+            "y": 240,
+            "key":  "island12",
+            "frame": 0
+        },
+        {
+            "x": 300,
+            "y": 340,
+            "key":  "island5",
+            "frame": 0
+        },
+        {
+            "x": 320,
+            "y": 440,
+            "key":  "island12",
+            "frame": 0
+        },
+
+
+        {
+            "x": 680,
+            "y": 120,
+            "key":  "island12",
+            "frame": 0
+        },
+        {
+            "x": 780,
+            "y": 180,
+            "key":  "island5",
+            "frame": 0
+        },
+        {
+            "x": 840,
+            "y": 240,
+            "key":  "island12",
+            "frame": 0
+        },
+        {
+            "x": 820,
+            "y": 340,
+            "key":  "island5",
+            "frame": 0
+        },
+        {
+            "x": 780,
+            "y": 440,
+            "key":  "island12",
+            "frame": 0
+        }
+
+    ],
+    "powerUpSpawnTime": 50,
+    "powerUps":[
+        {
+            "label": "PlayerLife",
+            "sprite": "heart",
+            "value": 10,
+            "time": "0"
+        },
+        {   
+            "label": "Invisible",
+            "sprite": "invisible",
+            "value": 0.3,
+            "time": "10"
+        },
+        {   
+            "label": "Mine",
+            "sprite": "mine",
+            "value": 70,
+            "time": "0"
+        },
+        {   
+            "label": "PlayerFast",
+            "sprite": "speedFastPlayer",
+            "value": 1200,
+            "time": "10"
+        },
+        {   
+            "label": "PlayerSlow",
+            "sprite": "speedSlowPlayer",
+            "value": 100,
+            "time": "10"
+        },
+        {   
+            "label": "EnemySlow",
+            "sprite": "speedSlowEnemy",
+            "value": 10,
+            "time": "10"
+        },
+        {   
+            "label": "EnemyFast",
+            "sprite": "speedFastEnemy",
+            "value": 200,
+            "time": "10"
+        },
+        {   
+            "label": "PlayerGrow",
+            "sprite": "growPlayer",
+            "value": 0.5,
+            "time": "10"
+        }
+
+        
+    ]
+}

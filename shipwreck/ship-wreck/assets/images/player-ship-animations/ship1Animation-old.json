@@ -1,0 +1,23 @@
+{
+    "frames":{
+        "Ships3":{
+            "frame":{
+                "x":480,
+                "y":218,
+                "w":131,
+                "h":220
+            },
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize":{
+                "x":0,
+                "y":0,
+                "w":131,
+                "h":220
+            },
+            "sourceSize":{
+                "w":131,"h":220
+                }
+                },
+        "Ships4":{
+            "frame":{"x":349,"y":0,"w":130,"h":221},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":130,"h":221},"sourceSize":{"w":130,"h":221}},"Ships5":{"frame":{"x":115,"y":0,"w":129,"h":224},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":129,"h":224},"sourceSize":{"w":129,"h":224}},"Ships6":{"frame":{"x":349,"y":222,"w":126,"h":224},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":126,"h":224},"sourceSize":{"w":126,"h":224}},"Ships7":{"frame":{"x":0,"y":0,"w":114,"h":224},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":114,"h":224},"sourceSize":{"w":114,"h":224}},"Ships8":{"frame":{"x":245,"y":0,"w":103,"h":222},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":103,"h":222},"sourceSize":{"w":103,"h":222}},"Ships9":{"frame":{"x":0,"y":225,"w":159,"h":222},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":159,"h":222},"sourceSize":{"w":159,"h":222}},"Ships10":{"frame":{"x":0,"y":448,"w":174,"h":220},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":174,"h":220},"sourceSize":{"w":174,"h":220}},"Ships11":{"frame":{"x":175,"y":448,"w":151,"h":220},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":151,"h":220},"sourceSize":{"w":151,"h":220}},"Ships12":{"frame":{"x":460,"y":448,"w":151,"h":217},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":151,"h":217},"sourceSize":{"w":151,"h":217}},"Ships13":{"frame":{"x":160,"y":225,"w":151,"h":216},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":151,"h":216},"sourceSize":{"w":151,"h":216}},"Ships1":{"frame":{"x":480,"y":0,"w":133,"h":217},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":133,"h":217},"sourceSize":{"w":133,"h":217}},"Ships2":{"frame":{"x":327,"y":448,"w":132,"h":218},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":132,"h":218},"sourceSize":{"w":132,"h":218}}},"meta":{"app":"https://www.leshylabs.com/apps/sstool/","version":"Leshy SpriteSheet Tool v0.8.4","image":"spritesheet.png","size":{"w":613,"h":668},"scale":1}}

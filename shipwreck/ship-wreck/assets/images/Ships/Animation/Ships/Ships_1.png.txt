@@ -1,0 +1,1 @@
+Ships_1_01.png.png 31 74, Ships_1_02.png.png 231 72, Ships_1_03.png.png 431 71, Ships_1_04.png.png 631 69, Ships_1_05.png.png 831 67, Ships_1_06.png.png 38 367, Ships_1_07.png.png 243 368, Ships_1_08.png.png 448 369, Ships_1_09.png.png 618 370, Ships_1_10.png.png 808 371, Ships_1_11.png.png 22 673, Ships_1_12.png.png 221 675, Ships_1_13.png.png 420 676.

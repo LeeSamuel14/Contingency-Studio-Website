@@ -1,0 +1,156 @@
+{
+    "levelTime" : 20,
+    "levelText": "LEVEL 3",
+    "playerShip": {
+        "key": "ship3Animation",
+        "health": 100,
+        "speed": 400,
+        "playerDamageToEnemyShip":10
+    },
+    "enemyShipSpawnTime":15,
+    "enemyShipCount": 4,
+    "enemyShips": [
+        {  
+            "x": 100,
+            "y": 100,
+            "key":  "orca",
+            "frame": 0,
+            "enemyHealth": 75,
+            "enemyHealthDamage":5,
+            "enemyDamageToPlayerShip": 2,
+            "speed": 100,
+            "firingTime": 1,
+            "type": "hard"
+        },
+        {  
+            "x": 900,
+            "y": 100,
+            "key":  "seal",
+            "frame": 0,
+            "enemyHealth": 100,
+            "enemyHealthDamage":10,
+            "enemyDamageToPlayerShip": 5,
+            "speed": 100,
+            "firingTime": 5,
+            "type": "medium"
+        },
+        {  
+            "x": 100,
+            "y": 900,
+            "key":  "otter",
+            "frame": 0,
+            "enemyHealth": 10,
+            "enemyHealthDamage":10,
+            "enemyDamageToPlayerShip": 1,
+            "speed": 40,
+            "firingTime": 10,
+            "type": "easy"
+        },
+        {  
+            "x": 900,
+            "y": 900,
+            "key":  "orca",
+            "frame": 0,
+            "enemyHealth": 75,
+            "enemyHealthDamage":7.5,
+            "enemyDamageToPlayerShip": 10,
+            "speed": 100,
+            "firingTime": 3,
+            "type": "hard"
+        }
+
+    ],
+    "islands":[
+        {
+            "x": 300,
+            "y": 100,
+            "key":  "island12",
+            "frame": 0
+        },
+        {
+            "x":300,
+            "y":300,
+            "key":  "island12",
+            "frame": 0
+        },
+        {
+            "x": 300,
+            "y": 500,
+            "key":  "island12",
+            "frame": 0
+        },
+
+        {
+            "x": 850,
+            "y": 100,
+            "key":  "island9",
+            "frame": 0
+        },
+        {
+            "x": 850,
+            "y": 300,
+            "key":  "island9",
+            "frame": 0
+        },
+        {
+            "x": 850,
+            "y": 500,
+            "key":  "island9",
+            "frame": 0
+        }
+
+    ],
+    "powerUpSpawnTime": 50,
+    "powerUps":[
+        {
+            "label": "PlayerLife",
+            "sprite": "heart",
+            "value": 10,
+            "time": "0"
+        },
+        {   
+            "label": "Invisible",
+            "sprite": "invisible",
+            "value": 0.3,
+            "time": "10"
+        },
+        {   
+            "label": "Mine",
+            "sprite": "mine",
+            "value": 70,
+            "time": "0"
+        },
+        {   
+            "label": "PlayerFast",
+            "sprite": "speedFastPlayer",
+            "value": 1200,
+            "time": "10"
+        },
+        {   
+            "label": "PlayerSlow",
+            "sprite": "speedSlowPlayer",
+            "value": 100,
+            "time": "10"
+        },
+        {   
+            "label": "EnemySlow",
+            "sprite": "speedSlowEnemy",
+            "value": 10,
+            "time": "10"
+        },
+        {   
+            "label": "EnemyFast",
+            "sprite": "speedFastEnemy",
+            "value": 200,
+            "time": "10"
+        },
+        {   
+            "label": "PlayerGrow",
+            "sprite": "growPlayer",
+            "value": 0.5,
+            "time": "10"
+        }
+
+        
+    ]
+}
